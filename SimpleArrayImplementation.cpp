@@ -10,7 +10,7 @@ struct Myqueue
     {
         size = 0;
         cap = c;
-        arr = new int[cap];
+        arr = new int[c];
     }
 
     void enque(int x)
